@@ -24,125 +24,141 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
-## index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"MAP"</title>
-    <h1 align="center">
-        <font color="blueS" face="cursive">
-           kabilan 21222210018- MAP 
-        </font>
-    </h1>
-</head>
-<body>
-    <img src="/static/Map.png" usemap="#image-map">
-
-    <map name="image-map">
-        <area target="_blank" alt="BUS STAND" title="BUS STAND" href="bus.html" coords="517,371,699,425" 
-shape="rect">
-        <area target="_blank" alt="MAPS" title="MAPS" href="market.html" coords="141,497,337,419" shape="rect">
-        <area target="_blank" alt="MY HOME " title="MY HOME" href="home.html" coords="827,309,607,173" shape="rect">
-        <area target="_blank" alt="THEATRE" title="THEATRE" href="theatre.html" coords="47,93,245,-1" shape="rect">
-        <area target="_blank" alt="TEMPLE" title="TEMPLE" href="temple.html" coords="433,299,204,177" shape="rect">
-    </map>
-</body>
-</html>
-
-## home.html
-<h1 align="center">
-    <font color="purple" face="cursive">
-        MY HOME
-    </font>
-</h1>
-<p align="center">
-    <font color="black" face="Comic Sans MS" size="24">
-        <OL  TYPE="1" START="1">
-            <LI>This is where i live.<br></LI>     
-            <LI>my home is always the best place .<br></LI>
-            <LI>and the view from my house is just spectacular.<br></LI>
-            
-        </OL>
-
-
-    </font>
-    <font color ="purple" face = "cursive" size="20" > 
-    "HOME WILL ALWAYS BE HOME"
-    </font>
-   ## bus.html
-   <h1 align="center">
-    <font color="blueS" face="cursive">
-        BUS STAND
-    </font>
-</h1>
-<p align="center">
-    <font color="black" face="Comic Sans MS" size="24">
-        <OL  TYPE="1" START="1">
-            <LI>This is a very popular bus satnd in chennai.<br></LI>     
-            <LI>its one of chennai's biggest bus stand.<br></LI>
-            
-        </OL>
-
-
-    </font>
-    <font color ="blue" face = "cursive" size="20" > 
-    "MOST POPULAR BUS STAND"
-    </font>
-  ## temple.html
-  <h1 align="center">
-    <font color="blueS" face="cursive">
-        TEMPLE
-    </font>
-</h1>
-<p align="center">
-    <font color="red" face="Comic Sans MS" size="24">
-        <OL  TYPE="1" START="1">
-            <LI>this is a very auspicious place,where everyone workships god.<br></LI>     
-            <LI>Its one of the most famous temples in chennai.<br></LI>
-            
-        </OL>
-
-
-    </font>
-    <font color ="blue" face = "cursive" size="20" > 
-    "Temple Is A Place Of Peace"
-    
-    
-    </font>
-  ## theatre.html
-  !DOCTYPE html>
-<html>
-<head>
-    <title>
-        THEATRE
-    </title>
-</head>
-<body bgcolor="premium">
-<h1 align="center">
-    <font color="silver" face="body">
-        THEATRE
-    </font>
-</h1>
-<p align="center">
-    <font color="black" face="Comic Sans MS" size="24">
-        <OL  TYPE="1" START="1">
-            <LI>A place where everyone enjoys wacthing a movie.<br></LI> 
-        </OL>
-    </font>
-    <font color ="red" face = "cursive" size="16" > 
-    "A theatre always entertains."
-    </font>
-</p>
-</body>
-</html>
+AGS.html
+```
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <meta charset="UTF-8">
+          <title>AGS Cinemas</title>
+      </head>
+      <body style="background-color: rgb(189, 101, 219);">
+          <h1><Center>Welcome to AGS Cinemas<Center></h1>
+          
+          <h2>Now Showing Movies</h2>
+          <ul>
+              <li>Kandukondain Kandukondain</li>
+              <li>Nanban</li>
+              <li>Dear Zindagi</li>
+          </ul>
+          
+          <h2>Showtimes</h2>
+          <p>Kandukondain Kandukondain : 11:00 AM, 4:30 PM, 8:00 PM</p>
+          <p>Nanban : 12:00 PM, 2:45 PM, 9:15 PM</p>
+          <p>Dear Zindagi: 12:30 PM, 4:00 PM, 9:30 PM</p>
+          
+          <h2>Facilities</h2>
+          <ul>
+              <li>Comfortable seating</li>
+              <li>State-of-the-art audio and visual technology</li>
+              <li>Concession stand with snacks and drinks</li>
+          </ul>
+      </body>
+      </html>
+```
+Vadapalani.html
+```
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset="UTF-8">
+                <title>Alurumigu Murugan Vadapalani Temple</title>
+            </head>
+            <body style="background-color: rgb(219, 215, 101);"></body>
+                <h1>Welcome to Alurumugi Murugan Vadapalani Temple</h1>
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>Thaipusam Festival</li>
+                    <li>Panguni Uthiram Celebration</li>
+                    <li>Monthly Bhajans</li>
+                </ul>
+                
+                <h2>Temple Timings</h2>
+                <p>Weekdays: 6:00 AM - 12:00 PM, 3:00 PM - 9:00 PM</p>
+                <p>Weekends: 6:00 AM - 9:30 PM</p>
+                <p>Please check the calendar for special event timings.</p>
+                
+            </body>
+            </html>
+```
+Decathlon.html
+```
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Decathlon Sports Store</title>
+  </head>
+  <body style="background-color: rgb(101, 156, 219);"></body>
+      <h1><Center>Welcome to Decathlon Sports Store</Center></h1>
+      <h2>Featured Products</h2>
+      <ul>
+          <li>Running Shoes</li>
+          <li>Cycling Gear</li>
+          <li>Tennis Rackets</li>
+      </ul>
+      
+      <h2>Store Hours</h2>
+      <p>Monday - Friday: 9:00 AM - 8:00 PM</p>
+      <p>Saturday: 10:00 AM - 6:00 PM</p>
+      <p>Sunday: Closed</p>
+      
+  </body>
+  </html>
+```
+Rohini.html
+```
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Rohini Silver Screen Theater</title>
+  </head>
+  <body style="background-color: rgb(132, 219, 101);"></body>
+      <h1><Center>Welcome to Rohini Silver Screen Theater</Center></h1>
+      <h2>Now Showing Movies</h2>
+      <ul>
+          <li>Leo</li>
+          <li>Alai Payuthey</li>
+          <li>Spider-Man</li>
+      </ul>
+      
+      <h2>Showtimes</h2>
+      <p>Leo Showtimes: 10:00 AM, 2:30 PM, 7:00 PM</p>
+      <p>Alai Payuthey Showtimes: 11:00 AM, 3:45 PM, 8:15 PM</p>
+      <p>Spider-Man Showtimes: 12:30 PM, 4:00 PM, 9:30 PM</p>
+      
+  </body>
+  </html>
+```
+Main.html
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Mapping an Image</title>
+  </head>
+  <body>
+      <h1><Center> EXNO:4 IMAGE MAP</Center></h1>
+  <h1><Center>Danush S -212221040033</Center></h1>
+  
+  <img src="map3.png" usemap="#nearme">
+  
+  <map name="nearme">
+      <area  title="Deco" href="http://127.0.0.1:8000/static/deco.html" coords="17,12,663,311" shape="rect">
+      <area  title="Rohini" href="http://127.0.0.1:8000/static/rohini.html" coords="678,11,1409,319" shape="rect">
+      <area  title="AGS" href="http://127.0.0.1:8000/static/ags.html" coords="16,332,663,597" shape="rect">
+      <area  title="Vadapalani temple" href="http://127.0.0.1:8000/static/vadapalani.html" coords="688,356,1558,829" shape="rect">
+      </map>
+  </body>
+  </html>
+  ```
 
 ## OUTPUT
-[MAP copy](https://github.com/Boobeshkrishna/NearMe/assets/141472052/8c9e5f56-4d16-4e41-81a6-726b08bfc30d)
-[image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/0110a205-1f81-4920-9b59-af39b3b3020c)
-[image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/aa3f2011-1259-4b22-add5-a0b7910b1632)
-[image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/86d99dd5-3548-4d96-96a4-620d9663c25f)
-[image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/d462c3e9-4e5f-45d5-b20b-fe32c8a920fa)
+![image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/b26302de-d732-43f6-901b-70677f0a0c8b)
+![image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/b3522471-7419-4362-a03f-223889120a4f)
+![image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/dc02cdaf-2268-4ac5-aba5-7e72eac90d0e)
+![image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/ec336651-8a45-410a-9ed4-56b015d89e27)
+![image](https://github.com/Boobeshkrishna/NearMe/assets/141472052/790898f3-4da2-4c95-93fb-10c7aaaa4888)
+
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
